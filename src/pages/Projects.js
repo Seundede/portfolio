@@ -2,19 +2,19 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
-import ecommerce from "../assets/ecommerce.png";
+import mobile_meal from "../assets/mobile_meal.png";
 import chat from '../assets/chatImage.png'
 import mobileCrypto from '../assets/crypoMobile.png'
 import netflix from '../assets/movieNetflix.png'
 const data = [
   {
-    image: ecommerce,
-    title: "E-commerce",
+    image: mobile_meal,
+    title: "Mobile Meal",
     description:
-      "A digital platform and business model where you can buy products online. It was made with Next js and stripe payment API for payment processing.",
-    stack: "Next js, Redux, Tailwind, Firebase, Stripe, Axios, Next-auth",
-    liveLink: "https://nextjs-e-commerce-coral.vercel.app/",
-    githubLink: "https://github.com/Seundede/Nextjs-E-commerce",
+      "A React native food delivery application brings delicious food from your favorite local restaurant to your door. Credit card payment implemented with Stripe.",
+    stack: "React Native, Expo, Redux, Sanity, javaScript, Firebase, Tailwind",
+    liveLink: "https://expo.dev/@dede007/mobile_meal",
+    githubLink: "https://github.com/Seundede/Mobile-meal",
   },
   {
     image: chat,
