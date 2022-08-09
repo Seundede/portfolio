@@ -31,7 +31,7 @@ const Home = () => {
     },
   };
   return (
-    <div className="h-screen overflow-y-hidden flex flex-col justify-between dark:bg-black">
+    <div className="h-screen overflow-y-hidden flex flex-col justify-between dark:bg-black max-h-screen">
       <Navbar />
       <motion.h1
         className="px-8 xl:px-16 text-[70px] text-6xl md:text-7xl font-extralight leading-none lg:text-9xl mb-[25px] dark:bg-black dark:text-white"
