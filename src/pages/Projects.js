@@ -113,10 +113,17 @@ const Projects = () => {
                 <a
                   href={item.liveLink}
                   className="uppercase md:mr-4 mb-4 md:mb-0 button px-8 "
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   live link
                 </a>
-                <a href={item.githubLink} className="uppercase button">
+                <a
+                  href={item.githubLink}
+                  className="uppercase button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   github link
                 </a>
               </div>
