@@ -32,7 +32,14 @@ const Footer = () => {
       </a>
       <div className="flex flex-col ">
         {data.map((item) => (
-          <a className="py-2 tracking-widest hover:underline" href={item.link}>{item.title}</a>
+          <a
+            className="py-2 tracking-widest hover:underline"
+            href={item.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {item.title}
+          </a>
         ))}
       </div>
     </motion.footer>

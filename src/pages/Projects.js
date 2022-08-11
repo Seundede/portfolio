@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import mobile_meal from "../assets/mobile_meal.png";
 import chat from '../assets/chatImage.png'
-import mobileCrypto from '../assets/crypoMobile.png'
+import mobileCrypto from '../assets/cryptoMobile.png'
 import netflix from '../assets/movieNetflix.png'
 const data = [
   {
@@ -30,7 +30,7 @@ const data = [
     title: "Mobile crypto app",
     description:
       "This is a mobile cryptocurrency application  that displays the  market price listing based on trade volume and market capitalization. This application is intended for users who are interested in cryptocurrency market and investment.  Real time and historical market changes of cryptocurrencies can be viewed on this app.",
-    stack: "React Native,Expo,React Navigation,Recoil,Tailwind,Axios ",
+    stack: "React Native, Expo, Recoil, Tailwind",
     liveLink: "https://expo.dev/@dede007/crypto",
     githubLink: "https://github.com/Seundede/React-native-crypto-app",
   },
