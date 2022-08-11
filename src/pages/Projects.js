@@ -38,10 +38,10 @@ const data = [
     image: netflix,
     title: "Netflix clone",
     description:
-      "Netflix clone built with react, redux, react hooks, firebase and styled component.",
+      "This is a movies application which displays movie data based on categories, and extensive details like trailers of each movie. It fetches data from The Movie DataBase API and is implemented using Typescript, Next JS, Tailwind, Recoil ",
     stack:
-      "Next JS, typescript, tailwind, firebase, recoil, material UI, react hook form, Netlify (deployment)",
-    liveLink: "https://netflix-clone-build.netlify.app/",
+      "Next JS, Typescript, Tailwind, Firebase, Recoil, Material UI, React hook form, Vercel (deployment)",
+    liveLink: "https://netflix-cloneed.vercel.app",
     githubLink: "https://github.com/Seundede/Netflix-clone",
   },
 ];
