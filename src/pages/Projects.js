@@ -21,7 +21,7 @@ const data = [
     title: "Youchat",
     description:
       "YouChat is a chat application that makes it easy to communicate with people anywhere in the world by sending and receiving messages in real time.",
-    stack: "React, React router, Firebase",
+    stack: "React, Firebase, Netlify(deployment)",
     liveLink: "https://chat-react-ap.netlify.app/",
     githubLink: "https://github.com/Seundede/chat-application",
   },
