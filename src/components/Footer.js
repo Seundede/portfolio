@@ -17,7 +17,7 @@ import { motion } from 'framer-motion'
 const Footer = () => {
   return (
     <motion.footer
-      className="h-[110px] flex flex-col  cursor-pointer uppercase text-xs font-light tracking-widest mt-4 dark:bg-black dark:text-white"
+      className=" flex flex-col  cursor-pointer uppercase text-xs font-light tracking-widest mt-4 dark:bg-black dark:text-white"
       variants={{
         hidden: { opacity: 0, x: -100 },
         visible: { opacity: 1, x: 0 },
@@ -31,8 +31,9 @@ const Footer = () => {
         👋 dedeomadoye@yahoo.com
       </a>
       <div className="flex flex-col ">
-        {data.map((item) => (
+        {data.map((item, index) => (
           <a
+            key={index}
             className="py-2 tracking-widest hover:underline"
             href={item.link}
             target="_blank"

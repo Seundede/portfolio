@@ -11,7 +11,7 @@ const data = [
     image: mobile_meal,
     title: "Mobile Meal",
     description:
-      "A React native food delivery application brings delicious food from your favorite local restaurant to your door. Credit card payment implemented with Stripe.",
+      "A React native food delivery application that brings delicious food from your favorite local restaurant to your door. Credit card payment implemented with Stripe.",
     stack: "React Native, Expo, Redux, Sanity, javaScript, Firebase, Tailwind",
     liveLink: "https://expo.dev/@dede007/mobile_meal",
     githubLink: "https://github.com/Seundede/Mobile-meal",
@@ -38,7 +38,7 @@ const data = [
     image: netflix,
     title: "Netflix clone",
     description:
-      "This is a movies application which displays movie data based on categories, and extensive details like trailers of each movie. It fetches data from The Movie DataBase API and is implemented using Typescript, Next JS, Tailwind, Recoil ",
+      "This is a movie application which displays movie data based on categories, and extensive details like trailers of each movie. It fetches data from The Movie DataBase API and is implemented using Typescript, Next JS, Tailwind, Recoil ",
     stack:
       "Next JS, Typescript, Tailwind, Firebase, Recoil, Material UI, React hook form, Vercel (deployment)",
     liveLink: "https://netflix-cloneed.vercel.app",

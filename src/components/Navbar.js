@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
-import { MdOutlineDarkMode } from "react-icons/md";
+import { BsFillMoonFill, BsSunFill } from "react-icons/bs";
+import { DarkModeToggle } from "tailwind-darkmode-toggle";
 
 const Navbar = () => {
   const data = [
@@ -39,16 +40,16 @@ const Navbar = () => {
         <Link to="/" className="text-xl lg:text-3xl cursor-pointer">
           DEDE
         </Link>
+
         <ul className="hidden md:flex items-center">
           {data.map((item, index) => (
             <Link to={item.link} key={index}>
-              <li className="px-4 cursor-pointer lg:text-xl hover:underline">{item.title}</li>
+              <li className="px-4 cursor-pointer lg:text-xl hover:underline">
+                {item.title}
+              </li>
             </Link>
           ))}
-          <MdOutlineDarkMode
-            onClick={() => themeSwitch()}
-            className="cursor-pointer w-7 h-7"
-          />
+          <DarkModeToggle className="w-10 h-10 text-gray-800 dark:text-gray-300" />
         </ul>
 
         {/* Hamburger */}
@@ -59,7 +60,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "md:hidden w-full absolute top-[80px] left-0 p-2 flex justify-center text-center z-40  h-screen bg-gray-100 dark:bg-black dark:text-white"
+              ? "md:hidden w-full absolute top-[70px] left-0 p-2 flex justify-center  z-40  h-screen bg-gray-100 dark:bg-black dark:text-white"
               : "absolute left-[-100%]"
           }
         >
@@ -69,14 +70,11 @@ const Navbar = () => {
                 <li className="py-[30px] text-lg">{item.title}</li>
               </Link>
             ))}
-            <MdOutlineDarkMode
-              onClick={() => themeSwitch()}
-              className="cursor-pointer w-7 h-7"
-            />
+            <DarkModeToggle className="w-10 h-10 text-gray-800 dark:text-gray-300" />
           </ul>
         </div>
       </nav>
-      <hr className="border my-2 dark:border-white" />
+      <hr className="border border-gray-100 my-2 dark:border-white" />
     </div>
   );
 };
