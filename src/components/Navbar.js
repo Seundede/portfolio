@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
-import { BsFillMoonFill, BsSunFill } from "react-icons/bs";
 import { DarkModeToggle } from "tailwind-darkmode-toggle";
 
 const Navbar = () => {
@@ -21,17 +20,6 @@ const Navbar = () => {
 
   const toggle = () => {
     setNav(!nav);
-  };
-
-  //theme switch
-  const themeSwitch = () => {
-    if (localStorage.theme !== "dark") {
-      localStorage.theme = "dark";
-      document.documentElement.classList.add("dark");
-    } else {
-      localStorage.theme = "light";
-      document.documentElement.classList.remove("dark");
-    }
   };
 
   return (

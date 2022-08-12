@@ -7,9 +7,14 @@ Portfolio website
 
 - React
 - Tailwind
-- Framer motion (animation)
-- -React router (routing)
 - Vercel (deployment)
+
+## Dependencies 
+
+- Framer motion
+- React icons
+- React router
+- Tailwind darkmode toggle
 
 ## Getting started
 
