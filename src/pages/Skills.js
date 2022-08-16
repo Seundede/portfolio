@@ -62,7 +62,7 @@ const data = [
 ];
 const Skills = () => {
   return (
-    <div className="overflow-y-hidden dark:bg-black">
+    <div className="overflow-y-hidden dark:bg-black lg:h-screen">
       <Navbar />
       <div className="px-8 xl:px-16">
         <motion.div

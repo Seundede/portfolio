@@ -7,7 +7,7 @@ import Skills from "./pages/Skills";
 
 function App() {
   return (
-   <div>
+   <div >
      <Routes>
        <Route path='/' element={<Home />} />
        <Route path='/skills' element={<Skills />} />
