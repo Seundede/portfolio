@@ -11,7 +11,7 @@ import { motion } from 'framer-motion'
    },
    {
      title: "medium",
-     link: "https://medium.com/@omadoyedede0",
+     link: "https://medium.com/@seundede",
    },
  ];
 const Footer = () => {
