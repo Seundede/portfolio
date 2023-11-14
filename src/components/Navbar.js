@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="flex h-16 justify-between">
               <Link
                 to="/"
-                className="text-xl lg:text-3xl cursor-pointer flex items-center"
+                className="text-xl lg:text-2xl cursor-pointer flex items-center"
               >
                 DEDE
               </Link>
